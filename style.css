@@ -1,0 +1,89 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #AAAAAA;
+}
+main{
+    align-items: center;
+}
+.influencer{
+    display: flex;
+}
+.font-headline{
+    font-size: 50px;
+}
+.half-width{
+    width: 60%;
+}
+.book, a{
+    text-decoration: none;
+    background-color:rgb(231, 61, 95);
+    color: white;
+    width: 20%;
+    border-radius: 15px;
+    padding: 5px;
+}
+/*---------------------------
+   Popular collection style 
+ ----------------------------*/
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+ .collection{
+    width: 1048.31px;
+height: 1550px;
+left: 275px;
+top: 891px;
+background-color: #f1eeee;
+border-radius: 5px;
+}
+    
+
+.section-title{
+    text-align: center;
+}
+ .image img{
+     width: 300px;
+     height: 256px;
+     border-radius: 5px;
+     padding-top: 10px;
+    
+
+}
+.collection-info{
+    line-height: 18px;
+}  
+.ratings{
+    color: #FB8200; 
+   
+}
+.convenience, span{
+    line-height: 3px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #787885;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+    
+}
+.item{
+    background-color: #FFFFFF; 
+    width: 329px;
+    height: 476px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.15);;
+    margin: 10px 10px;
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+   
+}

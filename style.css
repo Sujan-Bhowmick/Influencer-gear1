@@ -1,6 +1,9 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+/*-----------------------------
+    common style or utilities 
+ ------------------------------*/
 .body{
     font-family: 'Poppins', sans-serif;
     background-color: #AAAAAA;
@@ -85,5 +88,34 @@ border-radius: 5px;
     border-radius: 5px;
     display: grid;
     justify-content: center;
-   
+
+}
+.see{
+    display: flex;
+    align-items: center;
+    margin-left: 90%;
+    color:rgb(231, 61, 95);
+}
+.see i{
+    padding-left: 5px;
+}
+/* Footer style */
+footer{
+    background-color: rgb(27, 26, 26);
+    color:rgb(175, 167, 167);
+    margin-top: 60px;
+    text-align: center;
+    padding: 40px;
+    
+}
+.copyright> h2{
+color: white;
+}
+
+.copyright{
+    margin-bottom: 30px;
+   line-height: 1px;
+}
+.symbols i{
+  padding-left: 15px;
 }
